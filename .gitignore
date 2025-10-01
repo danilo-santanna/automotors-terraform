@@ -1,0 +1,32 @@
+# Terraform state e cache (em qualquer pasta)
+**/.terraform/
+**/.terraform/*
+**/*.tfstate
+**/*.tfstate.*
+**/.terraform.lock.hcl
+
+# Logs e arquivos de crash
+**/crash.log
+**/crash.*.log
+
+# Arquivos de override (locais)
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+
+# Variáveis locais (não versionar credenciais)
+**/terraform.tfvars
+**/terraform.tfvars.json
+
+# Build outputs (se usar build em algum módulo)
+**/build/
+**/dist/
+**/out/
+**/target/
+
+# IDE e SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

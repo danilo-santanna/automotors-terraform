@@ -1,0 +1,12 @@
+{
+  "brand": "tesla",
+  "model": "model s",
+  "year": 2020,
+  "color": "silver",
+  "price": 30000,
+  "odometerKm": 0,
+  "fuel": "ELECTRIC",
+  "transmission": "AUTOMATIC",
+  "bodyType": "SEDAN",
+  "plate": "OKG5B28"
+}
